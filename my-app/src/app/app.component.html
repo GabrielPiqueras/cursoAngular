@@ -1,3 +1,6 @@
-<app-cabecera></app-cabecera>
-<p>Esto forma parte del componente AppComponent!</p>
-<app-footer></app-footer>
+<h1 class="container bg-dark text-white text-center my-4 py-4">ngIf mostrar = {{mostrar}}</h1>
+<div class="container">
+    <button class="btn btn-warning" (click)="mostrar=!mostrar">Acción</button>
+    <p class="text-info" *ngIf="mostrar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum consequuntur, tempora exercitationem harum placeat maxime corrupti consectetur voluptate, corporis numquam hic eius, cumque sed voluptas sequi! Commodi quia maxime nihil.</p>
+    <p class="text-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum consequuntur, tempora exercitationem harum placeat maxime corrupti consectetur voluptate, corporis numquam hic eius, cumque sed voluptas sequi! Commodi quia maxime nihil.</p>
+</div>
