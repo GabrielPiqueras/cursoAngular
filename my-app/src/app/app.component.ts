@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  mostrar:boolean = false;
+  animales:any[] = [
+    {tipo:'Perro',nombre:'Lisa',edad:10},
+    {tipo:'Gato',nombre:'Pepon',edad:2},
+    {tipo:'Pato',nombre:'Tantan',edad:7}
+  ]
 }
